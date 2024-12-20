@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Memuat model
-model = load_model(r'D:\TUBES PMDPM\mobilenet\model_mobilenet.h5')
+model = r'BestModel_MobileNet_Transformers.h5'
 class_names = ['Busuk', 'Matang', 'Mentah']
 
 def classify_image(image_path):
